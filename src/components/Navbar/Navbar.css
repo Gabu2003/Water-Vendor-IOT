@@ -1,0 +1,44 @@
+nav {
+    background-color: white;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
+    width: 100%;
+  }
+
+  .nav--logo {
+    font-size: 50px;
+  }
+
+  .nav--links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .nav--link {
+    width: 11.5rem;
+    padding: 10px;
+    padding-left: 25px;
+  }
+
+  .nav--link:hover {
+    background-color: rgba(66, 66, 66, 0.677);
+  }
+
+  .nav--link #icon{
+    font-size: 22px;
+    margin-right: 25px;
+  }
+  
+  .nav--logout {
+    font-size: 25px;
+  }

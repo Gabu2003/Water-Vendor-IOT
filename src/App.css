@@ -1,0 +1,9 @@
+.content {
+  background-color: grey;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  height: 98vh;
+}
